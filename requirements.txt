@@ -1,0 +1,8 @@
+langchain>=0.3.25
+langchain-community>=0.3.25     # SQL toolkit lives here
+langchain-openai>=0.1.8         # ChatOpenAI wrapper
+sqlalchemy>=2.0                 # DB driver facade
+psycopg2-binary>=2.9            # or another driver e.g. pymysql, cx_Oracle
+python-dotenv>=1.0              # load .env files
+tqdm>=4.0 
+markdown>=3.5          # NEW: converts markdown → HTML
